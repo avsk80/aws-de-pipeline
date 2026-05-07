@@ -1,0 +1,5 @@
+git deploy roles: 
+name: github-actions-qa-deploy-role 
+dev-branch: arn:aws:iam::754151243424:role/github-actions-dev-deploy-role
+qa-branch: arn:aws:iam::754151243424:role/github-actions-qa-deploy-role
+prod: arn:aws:iam::754151243424:role/github-actions-prod-deploy-role
